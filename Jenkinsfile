@@ -91,8 +91,7 @@ pipeline {
             }
         }
         stage('configureingress') { 
-            steps { 
-                //sh 'kubectl apply -f https://raw.githubusercontent.com/Shayuru/ctt-devops-eks/main/services-ingress.yaml'
+            steps {                
             }
         }
     }
